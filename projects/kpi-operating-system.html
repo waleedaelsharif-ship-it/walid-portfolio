@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pharmacy KPI Operating System | Walid Abdelmageid</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <header class="container header">
+    <a class="brand" href="../index.html">Walid Abdelmageid</a>
+    <nav class="nav">
+      <a href="../index.html#projects">Projects</a>
+      <a href="../index.html#skills">Skills</a>
+      <a href="../index.html#insights">Insights</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container section">
+    <h1>Pharmacy KPI Operating System</h1>
+    <p class="muted">From raw pharmacy activity to executive control.</p>
+
+    <div class="panel">
+      <h3>Context</h3>
+      <p class="muted">
+        Pharmacy leadership operated with fragmented reports. Metrics existed, decisions did not.
+        Teams optimized isolated numbers, creating stockouts, service delays, and compliance risk.
+      </p>
+
+      <h3>Decision Risk</h3>
+      <ul>
+        <li class="muted">Promoting speed without safety increased dispensing errors.</li>
+        <li class="muted">Chasing sales without inventory logic amplified stockouts.</li>
+        <li class="muted">Compliance treated as audits, not a living control system.</li>
+      </ul>
+
+      <h3>Objective</h3>
+      <p class="muted">
+        Design a single KPI operating system that aligns daily pharmacist behavior with outcomes,
+        balancing service, safety, inventory, and profitability while enabling weekly executive decisions.
+      </p>
+
+      <h3>Data Used</h3>
+      <ul>
+        <li class="muted">Sales, margin, transactions, items per basket</li>
+        <li class="muted">Inventory levels, OOS logs, expiry data</li>
+        <li class="muted">Dispensing time, queue duration</li>
+        <li class="muted">Medication error logs</li>
+        <li class="muted">Compliance checkpoints (CIBAHI, JCI)</li>
+      </ul>
+
+      <h3>KPI Architecture</h3>
+      <p class="muted"><strong>Level 1 (Outcome / Lagging):</strong> Revenue, Gross Margin, Patient Satisfaction (NPS proxy), Compliance Score</p>
+      <p class="muted"><strong>Level 2 (Control / Leading):</strong> Stockout Rate, Average Waiting Time, Dispensing Error Rate, Conversion Rate, Average Basket Value</p>
+      <p class="muted"><strong>Level 3 (Behavioral):</strong> Service Recommendation Rate, Accuracy per Pharmacist, Stock Refill Discipline, Queue Handling Compliance</p>
+      <p class="muted">
+        Each KPI had an owner, thresholds (Green/Amber/Red), and a mandatory action when breached.
+      </p>
+
+      <h3>Decisions Taken</h3>
+      <ul>
+        <li class="muted">Reset reorder points using demand logic, not intuition.</li>
+        <li class="muted">Rebalanced pharmacist workload based on queue analytics.</li>
+        <li class="muted">Stopped promotion-driven stock depletion.</li>
+        <li class="muted">Embedded compliance checks into daily operations.</li>
+      </ul>
+
+      <h3>Results</h3>
+      <ul>
+        <li class="muted"><strong>Stockouts ↓ 35%</strong></li>
+        <li class="muted"><strong>Waiting time ↓ 20%</strong></li>
+        <li class="muted"><strong>Dispensing errors ↓ 30%</strong></li>
+        <li class="muted"><strong>100% CIBAHI & JCI compliance</strong></li>
+      </ul>
+
+      <h3>What the Decision-Maker Gained</h3>
+      <p class="muted">
+        A governed system where performance became predictable, risk surfaced early,
+        and pharmacist behavior aligned with strategy.
+      </p>
+
+      <h3>Tools</h3>
+      <p class="muted">Power BI · Tableau · SQL · Excel (Power Query)</p>
+    </div>
+  </main>
+</body>
+</html>
